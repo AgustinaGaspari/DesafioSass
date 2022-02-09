@@ -1,0 +1,32 @@
+header .div1 .titulos {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 6rem;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate; }
+
+@keyframes aparecer {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+header .navbar .container .collapse .nv .item .nav-link {
+  font-size: 1.25rem; }
+
+header .navbar .container .collapse .nv .item .subnav:hover {
+  background-color: gray; }
+
+main .container .row .frase {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center; }
+
+footer {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem; }
